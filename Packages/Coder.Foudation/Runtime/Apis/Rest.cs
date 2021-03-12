@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace Coder.Foundation
 {
-    public class Rest 
+    public class Rest : MonoBehaviour
     {
         // Start is called before the first frame update
-        void Start()
+        public void Start()
         {
             Debug.Log("Test");
         }

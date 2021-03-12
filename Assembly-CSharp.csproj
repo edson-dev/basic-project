@@ -276,6 +276,9 @@
      <Reference Include="nunit.framework">
      <HintPath>C:/Users/AzK-v/Documents/gamedev/basic-project/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:/Users/AzK-v/Documents/gamedev/basic-project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="netstandard">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0a9/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
      </Reference>
@@ -708,12 +711,11 @@
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>C:/Users/AzK-v/Documents/gamedev/basic-project/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="com.coder.foundation">
+     <HintPath>C:/Users/AzK-v/Documents/gamedev/basic-project/Library/ScriptAssemblies/com.coder.foundation.dll</HintPath>
+     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="com.coder.foundation.csproj">
-      <Project>{4a5ff184-fcea-b9d1-a314-a0b576d6bbc3}</Project>
-      <Name>com.coder.foundation</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
